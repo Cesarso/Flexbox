@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		.box {
+		  height: 50px;
+		  width: 70px;
+		  background-color: green;
+		}
+		.grid .box {
+		  display: flex;
+		  flex-wrap: wrap;
+		  margin: 1px;
+		}
+
+		.grid1 {
+			  display: flex;
+			  flex-wrap: wrap;
+			}
+
+		.course {
+		  width: 31.3%;
+		  margin: 1%;
+		  background-color: red;
+		}
+
+		.flexContainer {
+		    display: flex;
+		    /*justify-content: space-around;*/
+		    align-items: center;
+		    flex-direction: column;
+		    height: 600px;
+		}
+		.fleContainer:last-child{margin-top: 2em;}
+		body{margin: 0; padding: 0;}
+		div{height: 50px; width: 50px;}
+		div:nth-child(1){background-color: red;width: 50px; height: 50px;}
+		div:nth-child(2){background-color: blue;}
+		div:nth-child(3){background-color: green;}
+		div:nth-child(4){background-color: yellow;}
+		div:nth-child(5){background-color: pink;}
+		div:nth-child(6){background-color: black;}
+		div:nth-child(7){background-color: orange;}
+		div:nth-child(8){background-color: silver;}
+		/*fim do setup*/
+
+
+
+
+	</style>
+
+
+
+	<title>Testes</title>
+</head>
+<body>
+<!--
+	<div class="grid">
+		<div class="box">Ruby on Rails</div>
+		<div class="box">Java</div>
+		<div class="box">HTML</div>
+		<div class="box">Python</div>
+		<div class="box">Wordpress</div>
+		<div class="box">Bootstrap</div>
+		<div class="box">Java Web</div>
+		<div class="box">MySQL</div>
+	</div>
+
+
+	<div class="grid1">
+
+  <!-- primeira linha -->
+  <!--
+  <div class="course">1</div>
+  <div class="course">2</div>
+  <div class="course">3</div>
+
+  <!-- segunda linha -->
+  <!--
+  <div class="course">4</div>
+  <div class="course">5</div>
+  <div class="course">6</div>
+
+  <!-- terceira linha -->
+  <!--
+  <div class="course">7</div>
+  <div class="course">8</div>
+  <div class="course">9</div>
+
+  <!-- quarta linha -->
+  <!--
+  <div class="course">10</div>
+  <div class="course">11</div>
+
+</div>
+-->
+
+
+<main class="flexContainer">
+
+    <div class="flexItem primeiraRow">a</div>
+    <div class="flexItem primeiraRow">b</div>
+    <div class="flexItem primeiraRow">c</div>
+    <div class="flexItem primeiraRow">d</div>
+
+    <!-- <div class="flexItem segundaRow"></div>
+    <div class="flexItem segundaRow"></div>
+    <div class="flexItem segundaRow"></div>
+    <div class="flexItem segundaRow"></div> -->
+
+</main>
+
+</body>
+</html>
+
